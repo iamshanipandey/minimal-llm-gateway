@@ -85,7 +85,7 @@ Before running the project, install:
 
 1. Clone and Install
 
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/iamshanipandey/minimal-llm-gateway
 cd <YOUR_REPOSITORY_FOLDER>
 npm install
 
