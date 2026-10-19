@@ -151,7 +151,7 @@ Request body
 
 {
   "key": "YOUR_VIRTUAL_API_KEY",
-  "llmModel": "gemini-2.5-flash",
+  "llmModel": "gemini-3.5-flash-lite",
   "question": "Explain Node.js in simple words."
 }
 
