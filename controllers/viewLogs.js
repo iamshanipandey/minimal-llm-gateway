@@ -9,8 +9,8 @@ exports.requestHistory = async (req, res)=>{
         
         // Pagination parameters
         const {page = 1, limit = 10} = req.query;if (
-            !Number.isInteger(pageNum) || pageNum < 1 ||
-            !Number.isInteger(limitNum) || limitNum < 1 || limitNum > 100
+            !Number.isInteger(page) || page < 1 ||
+            !Number.isInteger(limit) || limit < 1 || limit > 100
         )
         {
             return res.status(400).json({
